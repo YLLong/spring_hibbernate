@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.uiyllong.spring.hibernate.entities.Book" table="sh_books">
+		<id name="id">
+			<generator class="native"></generator>
+		</id>
+		
+		<property name="bookName"></property>
+		<property name="isbn"></property>
+		<property name="price"></property>
+		<property name="stock"></property>
+	</class>
+</hibernate-mapping>
